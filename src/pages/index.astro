@@ -1,5 +1,11 @@
 ---
+import "../styles/main.css";
 
+import { getCollection, getEntry } from "astro:content";
+
+const allCoffees = await getCollection("coffees");
+
+console.log(allCoffees);
 ---
 
 <html lang="en">
@@ -11,6 +17,6 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Pine</h1>
 	</body>
 </html>
