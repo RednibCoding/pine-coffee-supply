@@ -1,4 +1,4 @@
-# Sample coffee shop website using astro js
+# Sample coffee shop website built with [Astro](https://astro.build/)
 
 ```sh
 npm create astro@latest -- --template minimal
